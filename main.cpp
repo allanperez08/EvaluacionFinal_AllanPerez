@@ -17,5 +17,11 @@ int main()
     getline(cin, texto);
     cout << texto;
     // Comience a programar desde aquí
+
+    for (int i = 0; i < texto.length(); i++)
+	{
+		cout << "La palabras mas repetida es: " << i << texto[i] << endl;
+	}
+
     return 0;
 }
