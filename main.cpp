@@ -18,9 +18,16 @@ int main()
     cout << texto;
     // Comience a programar desde aquí
 
+    void contar (string palabra){
+        for (int i = 0; i < texto.length(); i++)
+	{
+		cout << palabra;
+        return palabra;
+	}
+    }
     for (int i = 0; i < texto.length(); i++)
 	{
-		cout << "La palabras mas repetida es: " << i << texto[i] << endl;
+		cout << "La palabras mas repetida es: " << texto[palabra] << endl;
 	}
 
     return 0;
